@@ -9,7 +9,6 @@
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -35,11 +34,34 @@ The **Real-Time Process Monitoring Dashboard** is a powerful yet user-friendly g
 - **Process Control:** Terminate processes directly from the dashboard.
 - **History & Logging:** Automatically record process anomalies and performance data for review.
 
+## Installation
+
+To run the project locally, follow these steps:
+
+1. **Clone the Repository:**
+   -open folder in vs code then file.
+   -open terminal type--
+   python -m venv venv
+# Activate the virtual environment:
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate 
+# Install the Dependencies:
+pip install -r requirements.txt
+# Run the application
+python app.py
+ 
+
 ## Demo
 ![Dashboard Preview](img/fp.png)
 ![Dashboard Preview](img/PT.png)
 ![Dashboard Preview](img/RP.png)
 ![Dashboard Preview](img/g.png)
+
+## Contact
+Name- Ambuj Kumar Maurya
+Email- ambuj20maurya@gmail.com
 
 
 

@@ -36,6 +36,12 @@ The **Real-Time Process Monitoring Dashboard** is a powerful yet user-friendly g
 - **History & Logging:** Automatically record process anomalies and performance data for review.
 
 ## Demo
+![Dashboard Preview](img/fp.png)
+![Dashboard Preview](img/PT.png)
+![Dashboard Preview](img/RP.png)
+![Dashboard Preview](img/g.png)
+
+
 
 
 

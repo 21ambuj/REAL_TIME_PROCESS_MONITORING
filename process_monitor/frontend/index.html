@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Process Monitoring Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Include Chart.js for data visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Real-Time Process Monitoring Dashboard</h1>
+      <div class="stats-container">
+        <div class="stat-box">
+          <span class="stat-label">CPU Usage</span>
+          <span class="stat-value" id="cpu-usage">0%</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Memory Usage</span>
+          <span class="stat-value" id="memory-usage">0%</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Process Count</span>
+          <span class="stat-value" id="process-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="column">
+        <h2>Running Processes</h2>
+        <div class="search-box">
+          <input type="text" id="process-search" placeholder="Search processes...">
+        </div>
+        <div class="table-container">
+          <table id="process-table">
+            <thead>
+              <tr>
+                <th>PID</th>
+                <th>Name</th>
+                <th>CPU %</th>
+                <th>Memory %</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="column">
+        <h2>Potential Threats</h2>
+        <div class="table-container">
+          <table id="threats-table">
+            <thead>
+              <tr>
+                <th>PID</th>
+                <th>Name</th>
+                <th>CPU %</th>
+                <th>Detected</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <h2>Threat History</h2>
+        <div class="table-container">
+          <table id="history-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>CPU %</th>
+                <th>Detected</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <h2>System Stats Trend</h2>
+        <div class="chart-container">
+          <canvas id="stats-chart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

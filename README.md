@@ -1,2 +1,44 @@
 # REAL_TIME_PROCESS_MONITORING
-Develop a graphical dashboard that displays real-time system and process information.
+Develop a graphical dashboard that displays real-time system and process information
+# Real-Time Process Monitoring Dashboard
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-orange)
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Architecture](#architecture)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## Project Overview
+
+The **Real-Time Process Monitoring Dashboard** is a powerful yet user-friendly graphical tool designed to help system administrators monitor process states, CPU usage, and memory consumption in real time. With interactive visualizations and process management capabilities, the dashboard enables proactive identification of potential issues, as well as safe and convenient management of system processes.
+
+**Key Objectives:**
+- **Real-Time Monitoring:** Continuously track live process data and system metrics.
+- **Interactive Visualization:** Display data using dynamic charts and tables.
+- **Process Management:** Provide controls to manage processes (e.g., terminate, restart).
+- **Historical Analysis:** Maintain a history of system statistics and alerts for trend analysis.
+
+---
+
+## Features
+
+- **Live Process Data:** View all running processes with real-time data on CPU, memory, and process state.
+- **Potential Threat Alerts:** Highlight processes that exceed CPU usage thresholds (e.g., above 50%).
+- **Interactive UI:** Filter and search processes with an intuitive dashboard.
+- **Dynamic Charts:** Display historical trends of CPU and memory usage with Chart.js.
+- **Process Control:** Terminate processes directly from the dashboard.
+- **History & Logging:** Automatically record process anomalies and performance data for review.
+
+
+

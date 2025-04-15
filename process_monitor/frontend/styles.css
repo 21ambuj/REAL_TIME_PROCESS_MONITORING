@@ -1,0 +1,120 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f7f9;
+    color: #333;
+  }
+  
+  /* Container & Header */
+  .container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .stat-box {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  .stat-label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .stat-value {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .high-cpu {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  .high-memory {
+    color: #f39c12;
+    font-weight: bold;
+  }
+  
+  /* Main Content Layout */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .column {
+    flex: 1;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+  }
+  .column h2 {
+    margin-bottom: 10px;
+  }
+  .search-box {
+    margin-bottom: 10px;
+  }
+  .search-box input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Tables */
+  .table-container {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead {
+    background: #f0f0f0;
+  }
+  th, td {
+    padding: 8px 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 5px 10px;
+    border: none;
+    background: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #2980b9;
+  }
+  
+  /* Chart Container */
+  .chart-container {
+    position: relative;
+    height: 300px;
+    margin-top: 20px;
+  }
+  

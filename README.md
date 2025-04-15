@@ -1,5 +1,3 @@
-# REAL_TIME_PROCESS_MONITORING
-Develop a graphical dashboard that displays real-time system and process information
 # Real-Time Process Monitoring Dashboard
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
@@ -11,9 +9,6 @@ Develop a graphical dashboard that displays real-time system and process informa
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -39,6 +34,9 @@ The **Real-Time Process Monitoring Dashboard** is a powerful yet user-friendly g
 - **Dynamic Charts:** Display historical trends of CPU and memory usage with Chart.js.
 - **Process Control:** Terminate processes directly from the dashboard.
 - **History & Logging:** Automatically record process anomalies and performance data for review.
+
+## Demo
+
 
 
 
